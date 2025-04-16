@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT-Wiki | Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="style.css" type="stylesheet">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans min-h-screen flex flex-col">
+  <header class="text-center py-8 bg-gray-800 shadow">
+    <h1 class="text-4xl font-bold text-violet-400">IT-Wiki</h1>
+    <p class="text-gray-300 mt-2">Ein Ort, an dem IT-Wissen strukturiert, verständlich und ständig erweiterbar wird.</p>
+  </header>
+
+  <main class="flex-grow flex flex-col items-center justify-start p-4 overflow-y-auto">
+    <div class="flex flex-col sm:flex-row gap-4 mb-4 w-full max-w-xl">
+      <input id="suche-input" type="text" placeholder="🔍 Begriff suchen..." class="flex-1 px-4 py-2 rounded bg-gray-800 text-white placeholder-gray-400 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-violet-600">
+      <select id="kategorie-filter" class="px-4 py-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-violet-600">
+        
+        <option value="">Alle Kategorien</option>
+        <option value="Java">Java</option>
+        <option value="Datenbank">Datenbanken</option>
+        <option value="Linux">Bash / Linux</option>
+        <option value="JavaScript / Web">Javascript</option>
+        <option value="Allgemein / Web">Allgemein</option>
+        <option value="HTML">HTML</option>
+      </select>
+    </div>
+
+    <section id="begriff-anzeige" class="bg-gray-800 shadow-lg rounded-xl p-6 w-full max-w-xl mb-6 overflow-hidden">
+      <h2 id="begriff-titel" class="text-2xl font-semibold text-violet-300 mb-2">Lade...</h2>
+      <p id="begriff-beschreibung" class="text-gray-200 mb-4 break-words"> </p>
+      <pre id="begriff-beispiel" class="bg-gray-700 p-3 rounded text-sm text-gray-100 mb-4 overflow-auto whitespace-pre-wrap break-words"></pre>
+      <div id="begriff-kategorie" class="inline-block bg-violet-600 text-white px-3 py-1 rounded-full text-xs font-medium"></div>
+    </section>
+
+    <button onclick="ladeNeuenBegriff()" class="bg-violet-600 hover:bg-violet-700 text-white font-semibold px-6 py-2 rounded transition duration-200 mb-6">
+      🎲 Zufälliger Begriff
+    </button>
+
+    <div class="w-full max-w-xl">
+      <h3 class="text-lg font-semibold text-gray-300 mb-2">📚 Alle Begriffe:</h3>
+      <div id="begriff-liste" class="space-y-4 max-h-[400px] overflow-y-auto pr-2">
+        <!-- Begriffe werden hier geladen -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-4 text-gray-500 bg-gray-800">
+    <p>&copy; 2025 Kasem Rashrash</p>
+  </footer>
+
+
+</body>
+</html>

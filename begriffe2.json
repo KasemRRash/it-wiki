@@ -1,0 +1,519 @@
+[
+    {
+        "titel": "Servlet",
+        "beschreibung": "Java-Klassen, die HTTP-Anfragen verarbeiten und Webinhalte dynamisch erzeugen.",
+        "beispiel": "doGet(HttpServletRequest request, HttpServletResponse response)",
+        "kategorie": "Java"
+      },
+      {
+        "titel": "Array",
+        "beschreibung": "Eine Datenstruktur mit fester Größe zur Speicherung gleichartiger Elemente.",
+        "beispiel": "int[] zahlen = {1, 2, 3};",
+        "kategorie": "Java"
+      },
+      {
+        "titel": "ArrayList",
+        "beschreibung": "Eine dynamisch wachsende Liste in Java, Teil der Collection-API.",
+        "beispiel": "ArrayList<String> namen = new ArrayList<>();",
+        "kategorie": "Java"
+      },
+      {
+        "titel": "Methoden",
+        "beschreibung": "Funktionen innerhalb von Klassen, die bestimmte Aufgaben ausführen.",
+        "beispiel": "public int addiere(int a, int b) { return a + b; }",
+        "kategorie": "Java"
+      },
+      {
+        "titel": "Spring Boot",
+        "beschreibung": "Ein Java-Framework zur schnellen Entwicklung von Webanwendungen mit minimaler Konfiguration.",
+        "beispiel": "@SpringBootApplication",
+        "kategorie": "Java"
+      },
+      {
+        "titel": "Bibliotheken",
+        "beschreibung": "Sammlungen von Java-Klassen, die bestimmte Funktionen bereitstellen.",
+        "beispiel": "import org.apache.commons.io.*;",
+        "kategorie": "Java"
+      },
+      {
+        "titel": "JVM",
+        "beschreibung": "Java Virtual Machine – führt Java-Bytecode auf verschiedenen Plattformen aus.",
+        "beispiel": "java MeineKlasse",
+        "kategorie": "Java"
+      },
+    {
+      "titel": "nohup",
+      "beschreibung": "Ermöglicht das Ausführen von Prozessen im Hintergrund, selbst wenn die Sitzung geschlossen wird.",
+      "beispiel": "nohup python script.py &",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "crontab",
+      "beschreibung": "Zeitbasierte Ausführung von Aufgaben (Cronjobs).",
+      "beispiel": "crontab -e",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "wait",
+      "beschreibung": "Wartet, bis alle Hintergrundprozesse abgeschlossen sind.",
+      "beispiel": "sleep 10 & wait",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "shellcheck",
+      "beschreibung": "Überprüft Shell-Skripte auf Fehler und empfiehlt Verbesserungen.",
+      "beispiel": "shellcheck mein_skript.sh",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "ip a",
+      "beschreibung": "Zeigt Netzwerkgeräte und IP-Adressen an.",
+      "beispiel": "ip a",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "ip -br",
+      "beschreibung": "Kompakte Darstellung der IP-Adressen.",
+      "beispiel": "ip -br a",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "cut",
+      "beschreibung": "Extrahiert Textspalten aus Dateien anhand eines Trennzeichens.",
+      "beispiel": "cut -d \"|\" -f2 datei.txt",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "bc -l",
+      "beschreibung": "Komma-Rechner mit mathematischer Bibliothek.",
+      "beispiel": "echo \"7*21\" | bc -l",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "id",
+      "beschreibung": "Gibt Benutzer- und Gruppen-IDs aus.",
+      "beispiel": "id",
+      "kategorie": "Linux"
+    },
+    {
+      "titel": "whoami",
+      "beschreibung": "Zeigt den aktuellen Benutzernamen an.",
+      "beispiel": "whoami",
+      "kategorie": "Linux"
+    },
+        {
+          "titel": "whileschleife",
+          "beschreibung": "Eine Schleife in Bash, die so lange ausgeführt wird, wie eine Bedingung erfüllt ist.",
+          "beispiel": "while [ $x -lt 5 ]; do echo $x; ((x++)); done",
+          "kategorie": "Linux & Bash"
+        },
+        {
+          "titel": "ncat",
+          "beschreibung": "Ein Netzwerk-Werkzeug zum Lesen und Schreiben über TCP- oder UDP-Verbindungen.",
+          "beispiel": "ncat -l 8080",
+          "kategorie": "Linux & Bash"
+        },
+        {
+          "titel": "sed",
+          "beschreibung": "Stream Editor zum Suchen und Ersetzen in Dateien.",
+          "beispiel": "sed 's/test/TEST/g' datei.txt",
+          "kategorie": "Linux & Bash"
+        },
+        {
+          "titel": "sort",
+          "beschreibung": "Sortiert Zeilen aus Textdateien.",
+          "beispiel": "sort namen.txt",
+          "kategorie": "Linux & Bash"
+        },
+        {
+          "titel": "head",
+          "beschreibung": "Zeigt die ersten Zeilen einer Datei an.",
+          "beispiel": "head -n 5 datei.txt",
+          "kategorie": "Linux & Bash"
+        },
+        {
+          "titel": "nl",
+          "beschreibung": "Nummeriert Zeilen einer Datei.",
+          "beispiel": "nl datei.txt",
+          "kategorie": "Linux & Bash"
+        },
+
+        {
+            "titel": "const",
+            "beschreibung": "Deklariert eine Konstante, die nicht neu zugewiesen werden kann.",
+            "beispiel": "const name = 'Max';",
+            "kategorie": "JavaScript / Web"
+          },
+          {
+            "titel": "fetch()",
+            "beschreibung": "Methode zum Abrufen von Daten über HTTP (z. B. von einer API).",
+            "beispiel": "fetch('/api/data').then(res => res.json()).then(data => console.log(data));",
+            "kategorie": "JavaScript / Web"
+          },
+          {
+            "titel": "POST-Methode",
+            "beschreibung": "HTTP-Methode zum Senden von Daten (z. B. Formulardaten).",
+            "beispiel": "fetch('/api', { method: 'POST', body: JSON.stringify(obj) });",
+            "kategorie": "JavaScript / Web"
+          },
+          {
+            "titel": "GET-Methode",
+            "beschreibung": "HTTP-Methode zum Abrufen von Daten von einem Server.",
+            "beispiel": "fetch('/daten')",
+            "kategorie": "JavaScript / Web"
+          },
+
+
+        {
+          "titel": "gnuplot",
+          "beschreibung": "Ein Tool zur Erstellung von 2D- und 3D-Plots aus Daten.",
+          "beispiel": "gnuplot -persist -e \"plot 'daten.txt'\"",
+          "kategorie": "Linux & Bash"
+        },
+        {
+          "titel": "ssh",
+          "beschreibung": "Verbindung zu einem anderen Rechner über das sichere SSH-Protokoll.",
+          "beispiel": "ssh benutzer@server",
+          "kategorie": "Linux & Bash"
+        },
+
+        {
+            "titel": "tar",
+            "beschreibung": "Archivierungswerkzeug zum Verpacken oder Entpacken von Dateien.",
+            "beispiel": "tar -cf backup.tar mein_ordner",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "sudo -i -u",
+            "beschreibung": "Wechselt zur Identität eines anderen Nutzers und führt Befehle aus.",
+            "beispiel": "sudo -i -u username bash -c \"whoami; pwd\"",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "bash -c",
+            "beschreibung": "Führt einen übergebenen String als Bash-Befehl aus.",
+            "beispiel": "bash -c \"echo 'Hallo Welt'\"",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "- als stdin/stdout",
+            "beschreibung": "Das Minuszeichen wird als Platzhalter für die Standard-Ein-/Ausgabe verwendet.",
+            "beispiel": "cat -",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "strg+k",
+            "beschreibung": "Kombination in der Shell oder im Editor zur Interaktion mit der Zwischenablage (Kontextabhängig).",
+            "beispiel": "Text mit strg+k in den Buffer schicken",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "ps -ef",
+            "beschreibung": "Zeigt alle laufenden Prozesse des Systems an.",
+            "beispiel": "ps -ef | grep python",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "touch {a..z}",
+            "beschreibung": "Erzeugt mehrere Dateien im Alphabet (a bis z).",
+            "beispiel": "touch datei-{a..z}",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "grep -v",
+            "beschreibung": "Gibt alle Zeilen aus, die NICHT dem Muster entsprechen.",
+            "beispiel": "grep -v \"/\" datei.txt",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "tr",
+            "beschreibung": "Übersetzt Zeichen aus der Eingabe in andere Zeichen.",
+            "beispiel": "echo hallo | tr a o",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "chmod",
+            "beschreibung": "Ändert Zugriffsrechte für Dateien und Verzeichnisse.",
+            "beispiel": "chmod o-x .",
+            "kategorie": "Linux"
+          },
+          
+          {
+            "titel": "crontab -e",
+            "beschreibung": "Öffnet die Crontab zur Planung wiederkehrender Aufgaben.",
+            "beispiel": "crontab -e (z. B. zum täglichen Ausführen eines Scripts)",
+            "kategorie": "Linux"
+          },
+         
+          {
+            "titel": "grep \"^[^|]*|5|\"",
+            "beschreibung": "Findet Zeilen, bei denen die zweite Spalte eine 5 enthält (bei |-getrennten Daten).",
+            "beispiel": "grep \"^[^|]*|5|\" datei.txt",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "cut -d '|' -f2",
+            "beschreibung": "Schneidet die zweite Spalte aus, getrennt durch ein | Symbol.",
+            "beispiel": "cat daten.csv | cut -d '|' -f2",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "bc -l",
+            "beschreibung": "Mathematischer Taschenrechner im Terminal mit Bibliotheken (z. B. für Potenzen).",
+            "beispiel": "echo \"2^5\" | bc -l",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "which",
+            "beschreibung": "Zeigt den Pfad eines installierten Programms.",
+            "beispiel": "which python3",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "sudo -i -u benutzer",
+            "beschreibung": "Führt einen Befehl als anderer Benutzer im Root-Modus aus.",
+            "beispiel": "sudo -i -u step bash -c \"whoami; pwd\"",
+            "kategorie": "Linux"
+          },
+          
+          {
+            "titel": "ps -ef",
+            "beschreibung": "Zeigt eine vollständige Liste aller laufenden Prozesse mit Details.",
+            "beispiel": "ps -ef | grep python",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "bash -c",
+            "beschreibung": "Führt mehrere Bash-Kommandos in einem String aus.",
+            "beispiel": "bash -c \"echo Hallo; date\"",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "touch {a..z}",
+            "beschreibung": "Erstellt viele Dateien mit fortlaufenden Namen von a bis z.",
+            "beispiel": "touch datei-{a..z}",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "chmod o-x .",
+            "beschreibung": "Entzieht allen 'Others' das Ausführungsrecht im aktuellen Verzeichnis.",
+            "beispiel": "chmod o-x .",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "echo $(())",
+            "beschreibung": "Wertet mathematische Ausdrücke direkt in der Bash aus.",
+            "beispiel": "echo $((5 * 3 + 1))",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "seq",
+            "beschreibung": "Erzeugt eine Sequenz von Zahlen.",
+            "beispiel": "seq 1 10 > zahlen.txt",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "~ (Tilde)",
+            "beschreibung": "Steht für das Home-Verzeichnis des aktuellen Benutzers.",
+            "beispiel": "cd ~",
+            "kategorie": "Linux"
+          },
+          {
+            "titel": "cd ./",
+            "beschreibung": "Wechselt in das aktuelle Verzeichnis – nützlich für Pfadmanipulation.",
+            "beispiel": "cd ./projekt",
+            "kategorie": "Linux"
+          },
+
+
+  {
+    "titel": "JOIN",
+    "beschreibung": "Ein JOIN verbindet zwei oder mehr Tabellen über gemeinsame Spalten, um kombinierte Daten abzurufen.",
+    "beispiel": "SELECT * FROM kunden JOIN bestellungen ON kunden.id = bestellungen.kunden_id;",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "SELECT",
+    "beschreibung": "Mit SELECT kann man Daten aus einer Tabelle oder mehreren Tabellen abfragen.",
+    "beispiel": "SELECT name, email FROM benutzer;",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "DELETE",
+    "beschreibung": "DELETE entfernt Zeilen aus einer Tabelle basierend auf einer Bedingung.",
+    "beispiel": "DELETE FROM benutzer WHERE id = 3;",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "REMOVE",
+    "beschreibung": "In SQL gibt es keinen Befehl REMOVE, gemeint ist oft DELETE oder DROP für Tabellen.",
+    "beispiel": "-- Nicht gültig: REMOVE FROM benutzer;",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "ALTER",
+    "beschreibung": "ALTER verändert die Struktur einer bestehenden Tabelle, z. B. fügt Spalten hinzu.",
+    "beispiel": "ALTER TABLE benutzer ADD COLUMN geburtsdatum DATE;",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "CREATE TABLE",
+    "beschreibung": "Mit CREATE TABLE erstellt man eine neue Tabelle in der Datenbank.",
+    "beispiel": "CREATE TABLE benutzer (id INT PRIMARY KEY, name VARCHAR(100));",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "MariaDB -e",
+    "beschreibung": "Mit dem Flag -e kann man über die Kommandozeile SQL-Befehle direkt ausführen.",
+    "beispiel": "mariadb -u user -p -e 'SELECT * FROM benutzer;'",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "Primary Key",
+    "beschreibung": "Ein Primary Key identifiziert jede Zeile eindeutig und darf nicht NULL sein.",
+    "beispiel": "id INT PRIMARY KEY",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "Fremdschlüssel (Foreign Key)",
+    "beschreibung": "Ein Fremdschlüssel stellt eine Beziehung zwischen zwei Tabellen her.",
+    "beispiel": "FOREIGN KEY (kunden_id) REFERENCES kunden(id)",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "Relationales Schema",
+    "beschreibung": "Ein relationales Schema beschreibt die Struktur und Beziehungen zwischen Tabellen in einer Datenbank.",
+    "beispiel": "Kunde(id, name), Bestellung(id, kunde_id)",
+    "kategorie": "Datenbank"
+  },
+  {
+    "titel": "Beziehungen",
+    "beschreibung": "Beziehungen verbinden Tabellen in relationalen Datenbanken, z. B. 1:n oder m:n.",
+    "beispiel": "Ein Kunde kann mehrere Bestellungen haben (1:n-Beziehung).",
+    "kategorie": "Datenbank"
+  }, 
+    
+    {
+      "titel": "javac",
+      "beschreibung": "Der Java-Compiler, der Java-Quellcode in Bytecode übersetzt.",
+      "beispiel": "javac Main.java",
+      "kategorie": "Java"
+    },
+    {
+      "titel": "Jakarta EE",
+      "beschreibung": "Eine Sammlung von Spezifikationen für Enterprise-Java-Anwendungen (früher Java EE).",
+      "beispiel": "@WebServlet(\"/example\")",
+      "kategorie": "Java"
+    },
+    {
+      "titel": "Java",
+      "beschreibung": "Eine objektorientierte Programmiersprache für plattformunabhängige Anwendungen.",
+      "beispiel": "public class HelloWorld { public static void main(String[] args) { ... } }",
+      "kategorie": "Java"
+    },
+    {
+      "titel": "Polymorphie",
+      "beschreibung": "Objekte können in verschiedenen Formen auftreten, z. B. durch Vererbung.",
+      "beispiel": "Tier t = new Hund();",
+      "kategorie": "Java"
+    },
+    {
+      "titel": "Abstrakte Klassen",
+      "beschreibung": "Klassen, die nicht instanziiert werden können und abstrakte Methoden enthalten.",
+      "beispiel": "abstract class Tier { abstract void macheGeräusch(); }",
+      "kategorie": "Java"
+    },
+    {
+      "titel": "Interfaces",
+      "beschreibung": "Verträge für Klassen, die bestimmte Methoden implementieren müssen.",
+      "beispiel": "interface Beweglich { void bewege(); }",
+      "kategorie": "Java"
+    },
+    {
+      "titel": "implements",
+      "beschreibung": "Schlüsselwort zum Implementieren eines Interfaces.",
+      "beispiel": "class Auto implements Beweglich",
+      "kategorie": "Java"
+    },
+    {
+      "titel": "extends",
+      "beschreibung": "Schlüsselwort zur Vererbung von Klassen.",
+      "beispiel": "class Hund extends Tier",
+      "kategorie": "Java"
+    }, 
+
+  {
+    "titel": "Tailwind CSS",
+    "beschreibung": "Ein Utility-First-CSS-Framework für schnelle, responsive Designs.",
+    "beispiel": "<div class=\"text-center text-blue-500\">Hallo</div>",
+    "kategorie": "HTML"
+  },
+  {
+    "titel": "Bootstrap",
+    "beschreibung": "Ein beliebtes Frontend-Framework mit vordefinierten Komponenten und Layouts.",
+    "beispiel": "<button class=\"btn btn-primary\">Klick mich</button>",
+    "kategorie": "HTML"
+  },
+  {
+    "titel": "Formular erstellen",
+    "beschreibung": "Ein einfaches HTML-Formular zur Benutzereingabe.",
+    "beispiel": "<form><input type=\"text\" name=\"name\"><button>Absenden</button></form>",
+    "kategorie": "HTML"
+  },
+  {
+    "titel": "Button in HTML",
+    "beschreibung": "Ein HTML-Button mit Styling und Event-Optionen.",
+    "beispiel": "<button onclick=\"alert('Hallo')\">Klick mich</button>",
+    "kategorie": "HTML"
+  },
+  {
+    "titel": "Kalenderfeld",
+    "beschreibung": "Ein Eingabefeld zur Auswahl eines Datums.",
+    "beispiel": "<input type=\"date\">",
+    "kategorie": "HTML"
+  },
+
+    
+
+ 
+        {
+          "titel": "IP-Adresse",
+          "beschreibung": "Eindeutige Adresse eines Geräts im Netzwerk (z. B. 192.168.0.1).",
+          "beispiel": "IP eines Heimrouters: 192.168.178.1",
+          "kategorie": "Allgemein / Web"
+        },
+        {
+          "titel": "Router",
+          "beschreibung": "Ein Gerät, das Daten zwischen Netzwerken weiterleitet.",
+          "beispiel": "WLAN-Router verbindet dein Heimnetz mit dem Internet.",
+          "kategorie": "Allgemein / Web"
+        },
+        {
+          "titel": "Primärschlüssel",
+          "beschreibung": "Eindeutiger Identifikator einer Zeile in einer Datenbanktabelle.",
+          "beispiel": "id INT PRIMARY KEY",
+          "kategorie": "Datenbank"
+        },
+        {
+          "titel": "Fremdschlüssel",
+          "beschreibung": "Ein Attribut, das auf einen Primärschlüssel einer anderen Tabelle verweist.",
+          "beispiel": "user_id INT FOREIGN KEY REFERENCES users(id)",
+          "kategorie": "Datenbank"
+        },
+        {
+          "titel": "POST vs GET",
+          "beschreibung": "Zwei HTTP-Methoden zum Senden (POST) bzw. Empfangen (GET) von Daten.",
+          "beispiel": "GET: URL?id=1, POST: im Request-Body",
+          "kategorie": "Allgemein / Web"
+        }
+]
+      
+  
+
+
+  
+
+
+  
+
+
