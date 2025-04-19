@@ -30,4 +30,4 @@ MIT License – frei verwendbar mit Namensnennung.
 ## Autor
 
 Kasem Rashrash – Informatik-Student, Hochschule Bremerhaven  
-[Website]: https://kasem-rashrash.com/it-wiki.html
+[Website]: https://kasem-rashrash.com/wiki.html
